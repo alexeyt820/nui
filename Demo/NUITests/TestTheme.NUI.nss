@@ -298,3 +298,7 @@ TextField{
 TextView {
     keyboard-appearance: dark;
 }
+
+TableCellContentView {
+    background-color: orange;
+}
