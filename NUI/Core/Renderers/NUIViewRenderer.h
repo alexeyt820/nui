@@ -13,7 +13,6 @@
 @interface NUIViewRenderer : NSObject
 
 + (void)render:(UIView*)view withClass:(NSString*)className;
-+ (void)render:(UIView *)view withClass:(NSString *)className withSuffix:(NSString*)suffix;
 + (void)renderBorder:(UIView*)view withClass:(NSString*)className;
 + (void)renderShadow:(UIView*)view withClass:(NSString*)className;
 + (void)renderSize:(UIView*)view withClass:(NSString*)className;
